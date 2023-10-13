@@ -1,0 +1,125 @@
+body{
+    width: 100vw;
+    height: 130vh;
+    overflow-x: hidden;
+}
+:root{
+    --green:#00FF7F;
+    --white:#fff;
+    --dark:#000;
+
+}
+nav{
+    width: 50%;
+    height: 100%;
+}
+.navigation{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.nav-ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    list-style: none;
+}
+.inf{
+    width: 80%;
+    height: 100%;
+
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.nav-li{
+    background-color: transparent;
+    width: 15%;
+    height: 50%;
+}
+.nav-btn{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 4px;
+    color: var(--dark);
+    border: 2px solid #00FF7F;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+.nav-btn:hover{
+    background-color: #00FF7F;
+    color: var(--white);
+    transform: scale(0.97);
+}
+.p{
+text-decoration: underline;
+color: #00FF7F;
+}
+.p, .vr{
+    border-bottom: 2px #00FF7F;
+    font-weight: bold;
+    font-size: 32px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.pr{
+    color: #000;
+}
+.vr{
+    color: #00FF7F;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid yellow;
+    display: flex;
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    border: 2px solid rebeccapurple;
+}
+.sugestoes{
+    border: 2px solid black;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 5px 5px; 
+    
+}
+.sugestao{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+}
+.click{
+    text-decoration: none;
+    color: black;
+}
+.imagem{
+    border: 2px solid green;
+    width: 100%;
+    height: 10%;
+}
+.sugestao:hover{
+    transform: scale(0.98);
+    border-color:green ;
+}
+.infos{
+    width: 100%;
+    height: 90%;
+    border: 2px solid black;
+}
